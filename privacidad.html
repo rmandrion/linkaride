@@ -3,29 +3,153 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LinkaRide</title>
+  <title>Política de privacidad de LinkaRide</title>
+  <meta name="description" content="Qué datos trata LinkaRide, para qué, durante cuánto tiempo y cómo pedir su supresión.">
   <style>
-    :root { --ink: #142b49; --sky: #1a6fbf; --paper: #f5faff; --slate: #4d6074; --mark: #fff3c4; }
+    :root {
+      --ink: #142b49;
+      --sky: #1a6fbf;
+      --paper: #f5faff;
+      --card: #ffffff;
+      --line: #d5e3f0;
+      --slate: #4d6074;
+    }
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       background: var(--paper);
       color: var(--ink);
-      font: 18px/1.55 Georgia, "Iowan Old Style", Palatino, serif;
+      font: 18px/1.55 Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
     }
-    main { width: min(42rem, calc(100% - 2rem)); margin: 4rem auto; }
-    h1 { margin: 0.3rem 0; font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 2.6rem; line-height: 1; }
-    .brand { margin: 0; font-family: "Avenir Next", "Segoe UI", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sky); font-size: 0.85rem; }
+    header, main, footer { width: min(42rem, calc(100% - 2rem)); margin-inline: auto; }
+    header { padding: 2.5rem 0 1rem; }
+    .brand { margin: 0; font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sky); }
+    h1 { margin: 0.35rem 0 0.75rem; font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 2.4rem; line-height: 1.1; font-weight: 750; }
+    h2 { margin: 2.2rem 0 0.6rem; font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 1.35rem; line-height: 1.25; }
+    p, li { margin: 0.7rem 0; }
+    ul, ol { padding-left: 1.2rem; }
     a { color: var(--sky); }
-    .todo { background: var(--mark); }
+    .meta, footer { color: var(--slate); font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 0.95rem; }
+    nav { display: flex; gap: 0.75rem; margin: 1rem 0; font-family: "Avenir Next", "Segoe UI", sans-serif; }
+    nav a { text-decoration: none; }
+    section { padding-bottom: 0.4rem; }
+    .lang { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+    footer { padding: 1rem 0 3rem; }
   </style>
 </head>
 <body>
-  <main>
+  <header>
     <p class="brand">LinkaRide</p>
-    <h1>Navegación en grupo para motos.</h1>
-    <p>Group navigation for motorcycles.</p>
-    <p><a href="privacidad.html">Política de privacidad</a> · <a href="privacidad.html#en">Privacy policy</a></p>
-    <p>Contacto: <span class="todo">email@dominio</span></p>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: 9 de noviembre de 2026 · <a href="#en">English</a></p>
+  </header>
+
+  <main>
+    <section id="es" lang="es">
+      <nav aria-label="Contenido">
+        <a href="#responsable">Responsable</a>
+        <a href="#datos">Datos</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#destinatarios">Destinatarios</a>
+        <a href="#derechos">Derechos</a>
+      </nav>
+
+      <h2 id="responsable">Quién es el responsable</h2>
+      <p>El responsable del tratamiento es Raimundo Mandrión. Puedes escribir a <a href="mailto:rmandrion@gmail.com">rmandrion@gmail.com</a> para cualquier pregunta sobre tus datos o para ejercer tus derechos.</p>
+      <p>LinkaRide es una aplicación de navegación en grupo para motos. Su función es que los participantes de una salida sigan la misma ruta y puedan verse entre sí mientras dura.</p>
+
+      <h2 id="datos">Qué datos trata</h2>
+      <p>Hace falta una cuenta. Según cómo entres, el acceso lo gestiona Supabase con tu email y una contraseña, Apple o Google. La contraseña no se guarda en tu perfil: la custodia el servicio de acceso. Si Apple te ofrece ocultar el email, recibimos la dirección de reenvío que elige Apple, no necesariamente la tuya. De Google recibimos el nombre y el email que Google comparte en ese acceso.</p>
+      <p>Tu perfil tiene un nombre visible, de hasta 40 caracteres, un color y, si la añades, una foto que eliges de tu teléfono. El email no se muestra a los demás. El nombre, el color y la foto sí los puede ver cualquier persona que tenga cuenta en LinkaRide, no solo la gente de tu club. La foto se guarda en una dirección pública: quien tenga el enlace puede abrirla.</p>
+      <p>Si usas clubes, se tratan tu pertenencia, las solicitudes de alta, las rutas que guardas (el recorrido y, si lo importas, el archivo GPX), las salidas, las confirmaciones de asistencia, la lista de espera y las preferencias de comida. Los miembros del club ven esos datos de la salida. El nombre y la descripción de un club marcado como público pueden verse sin ser miembro.</p>
+      <p>Un administrador del club puede anotar el nombre de un invitado y si come con el grupo. El invitado no crea una cuenta y no recibimos su email. Esos datos los ven los miembros del club. Quien añade a un invitado debe haberle informado.</p>
+      <p>La app también guarda avisos en tu cuenta: solicitudes, salidas nuevas, cancelaciones, una plaza libre y un aviso de SOS con el nombre de quien lo envía y el nombre de la ruta. No usamos un servicio de notificaciones push. Durante una salida, el teléfono muestra una notificación local para que la guía pueda seguir con la pantalla apagada.</p>
+
+      <h2 id="ubicacion">Ubicación, SOS y espectadores</h2>
+      <p>La ubicación precisa solo se usa mientras hay una salida en marcha y tú la has iniciado. Se envían la posición, el rumbo, la velocidad, la precisión y el avance sobre la ruta a las personas de esa salida que tienen el mapa abierto. Viaja por el canal en tiempo real de Supabase. Esas posiciones en vivo no se escriben en la base de datos.</p>
+      <p>En un iPhone, si aceptas el permiso correspondiente, la guía y el envío de tu posición continúan con la pantalla bloqueada y se detienen al terminar la salida. En Android, la ubicación sigue mediante un servicio en primer plano, con una notificación visible, y la app no pide permiso de ubicación en segundo plano. Puedes negar el permiso y usar el teléfono con la pantalla encendida, o revocarlo en los ajustes del sistema.</p>
+      <p>Si pulsas SOS, o si confirmas el aviso de una posible caída, tu posición se muestra en el momento a quien comparte esa salida. No es un aviso a los servicios de emergencia y puedes cancelarlo antes de enviarlo. En una salida de club, además, queda un aviso guardado para los demás inscritos con tu nombre, el tipo de alerta y el nombre de la ruta, sin las coordenadas.</p>
+      <p>Quien crea un enlace de espectador publica el nombre de la salida, el recorrido y las posiciones en vivo a cualquier persona que tenga esa dirección, aunque no tenga cuenta. El enlace deja de funcionar a las 36 horas.</p>
+      <p>En el propio teléfono se guarda un historial de las salidas terminadas: nombre, hora, distancia y el trazado, con un máximo de 40. También se guardan en el teléfono el idioma, ajustes del mapa y, en una salida sin cuenta, el nombre y el color que eliges. Ese historial no se sube al servidor. Permanece en el aparato hasta que borras los datos de la app o la desinstalas.</p>
+
+      <h2 id="destinatarios">A quién se envían</h2>
+      <p>No vendemos datos y la app no lleva publicidad ni un kit de analítica o de informes de fallos.</p>
+      <ul>
+        <li><strong>Las personas de tu salida y de tu club</strong>, como se describe arriba. Un enlace de espectador amplía eso a quien lo abra.</li>
+        <li><strong>Supabase</strong>, que aloja la cuenta, la base de datos, las fotos y el canal en tiempo real. El proyecto está en Europa (Irlanda, eu-west-1). Su política está en <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+        <li><strong>Apple</strong> o <strong>Google</strong>, solo si entras con ellos.</li>
+        <li><strong>OpenFreeMap</strong> (<a href="https://tiles.openfreemap.org/styles/liberty">tiles.openfreemap.org</a>), que entrega los mapas. Al pedir una tesela, ese servicio ve la dirección IP del teléfono y la zona del mapa que se está mostrando.</li>
+        <li><strong>El servidor de rutas de esa versión.</strong> Al calcular o ajustar un recorrido, la app envía las coordenadas de los puntos. La versión actual usa el servidor público de FOSSGIS, <a href="https://valhalla1.openstreetmap.de">valhalla1.openstreetmap.de</a>, en Alemania. Ese servidor recibe los puntos y la dirección IP. Si una versión publicada usa otro, esta página dirá su nombre y su dirección.</li>
+      </ul>
+      <p>Supabase, Apple y Google pueden tratar datos fuera del Espacio Económico Europeo. En ese caso se apoyan en las garantías que publica cada uno, como las cláusulas contractuales tipo.</p>
+
+      <h2>Durante cuánto tiempo</h2>
+      <p>La cuenta, el perfil, las rutas, la pertenencia a clubes y los avisos se conservan mientras la cuenta existe. Desde la pantalla de cuenta puedes eliminarla. Eso borra el usuario, el perfil y la foto. Una salida o una ruta que el club todavía necesita puede quedar a cargo de otro administrador en lugar de desaparecer. El nombre de un invitado sigue en la salida hasta que un administrador lo quita o la salida se elimina.</p>
+      <p>Las posiciones en vivo no se archivan. El enlace de espectador caduca a las 36 horas. El historial de rutas del teléfono se queda en el aparato, con las 40 salidas más recientes.</p>
+
+      <h2>Por qué los tratamos</h2>
+      <p>Tratamos la cuenta, los clubes, las rutas y la posición durante una salida porque son necesarios para el servicio que pides. El permiso de ubicación, el de fotos y el de notificaciones los concede o los retira el sistema del teléfono. El aviso de SOS a los participantes de esa salida responde a la petición de quien lo envía, para que el grupo pueda ayudarle. No tomamos decisiones automatizadas que produzcan efectos jurídicos sobre ti.</p>
+
+      <h2 id="derechos">Tus derechos</h2>
+      <p>Puedes pedir acceso, rectificación, supresión, limitación, oposición y portabilidad escribiendo a <a href="mailto:rmandrion@gmail.com">rmandrion@gmail.com</a>. Eliminar la cuenta en la app es la vía directa de supresión. También puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">aepd.es</a>) si consideras que el tratamiento no se ajusta a la norma.</p>
+      <p>LinkaRide no está dirigida a menores de 14 años y no debería crear una cuenta quien no tenga esa edad.</p>
+
+      <h2>Cambios</h2>
+      <p>Si cambia el tratamiento, se actualiza esta página y la fecha de arriba. Cuando el cambio sea relevante para una cuenta ya creada, se avisará en la app o por el email de la cuenta.</p>
+    </section>
+
+    <section id="en" class="lang" lang="en">
+      <p class="brand">LinkaRide</p>
+      <h1>Privacy policy</h1>
+      <p class="meta">Last updated: 9 November 2026 · <a href="#es">Español</a></p>
+
+      <h2>Who is responsible</h2>
+      <p>The controller is Raimundo Mandrión. Write to <a href="mailto:rmandrion@gmail.com">rmandrion@gmail.com</a> with any question about your data or to use the rights below.</p>
+      <p>LinkaRide is a group navigation app for motorcycles. Riders on the same outing follow one route and can see each other while it lasts.</p>
+
+      <h2>What data is used</h2>
+      <p>An account is required. Sign-in is handled by Supabase with your email and a password, by Apple, or by Google. The password is not stored on your profile. If Apple offers to hide your email, we receive the relay address Apple chooses. From Google we receive the name and email Google shares for that sign-in.</p>
+      <p>Your profile has a display name of up to 40 characters, a colour, and a photo if you choose one from your phone. Your email is not shown to other people. Your name, colour, and photo can be seen by anyone with a LinkaRide account, not only by your club. The photo is stored at a public address: anyone with the link can open it.</p>
+      <p>If you use clubs, we process membership, join requests, routes you save (the geometry and an imported GPX file, if you provide one), scheduled rides, attendance, the waitlist, and meal choices. Club members can see that ride information. The name and description of a club marked public can be seen without joining it.</p>
+      <p>A club admin can record a guest’s name and whether they join a meal. The guest does not create an account, and we do not receive their email. Club members can see those details. The person who adds a guest must already have told them.</p>
+      <p>Notices are stored on your account: join requests, new rides, cancellations, a free seat, and an SOS notice with the sender’s name and the route name. There is no push-notification provider. During a ride the phone shows a local notification so guidance can continue with the screen off.</p>
+
+      <h2>Location, SOS, and spectators</h2>
+      <p>Precise location is used only during a ride you have started. Position, heading, speed, accuracy, and progress along the route are sent to the people on that ride who have the map open. They travel on Supabase’s realtime channel. Live positions are not written into the database.</p>
+      <p>On an iPhone, if you grant the matching permission, guidance and location sharing continue while the screen is locked and stop when the ride ends. On Android, location continues through a foreground service with a visible notification. The app does not request background-location permission. You can refuse the permission and ride with the screen on, or turn it off in the system settings.</p>
+      <p>If you tap SOS, or you confirm a possible-crash prompt, your position is shown at that moment to the people on the ride. It is not a call to emergency services, and you can cancel before it is sent. On a club ride, a stored notice is also kept for the other participants, with your name, the kind of alert, and the route name, without the coordinates.</p>
+      <p>A person who creates a spectator link publishes the ride name, the route, and the live positions to anyone who has that address, with or without an account. The link stops working after 36 hours.</p>
+      <p>The phone itself keeps a history of finished rides: name, time, distance, and track, up to 40. It also stores the language, map settings, and, for a ride without an account, the name and colour you choose. That history is not uploaded. It stays on the device until you clear the app’s data or uninstall it.</p>
+
+      <h2>Who receives it</h2>
+      <p>We do not sell data. The app has no advertising and no analytics or crash-reporting kit.</p>
+      <ul>
+        <li><strong>People on your ride and in your club</strong>, as described above. A spectator link extends that to whoever opens it.</li>
+        <li><strong>Supabase</strong>, which hosts the account, the database, photos, and the realtime channel. The project is in Europe (Ireland, eu-west-1). Their policy is at <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+        <li><strong>Apple</strong> or <strong>Google</strong>, only if you sign in with them.</li>
+        <li><strong>OpenFreeMap</strong> (<a href="https://tiles.openfreemap.org/styles/liberty">tiles.openfreemap.org</a>), which serves the maps. A tile request shows that service the phone’s IP address and the map area being viewed.</li>
+        <li><strong>The routing server for that build.</strong> When a route is calculated or adjusted, the app sends the point coordinates. The current build uses FOSSGIS’s public server, <a href="https://valhalla1.openstreetmap.de">valhalla1.openstreetmap.de</a>, in Germany. That server receives the points and the IP address. If a published build uses another server, this page will name it and give its address.</li>
+      </ul>
+      <p>Supabase, Apple, and Google may process data outside the European Economic Area, under the safeguards each of them publishes, such as standard contractual clauses.</p>
+
+      <h2>How long it is kept</h2>
+      <p>The account, profile, routes, club membership, and notices are kept while the account exists. You can delete the account from the account screen. That removes the user, the profile, and the photo. A ride or a route the club still needs may be left with another admin instead of being removed. A guest’s name stays on the ride until an admin removes it or the ride is deleted.</p>
+      <p>Live positions are not archived. A spectator link expires after 36 hours. The on-phone ride history stays on the device, limited to the 40 most recent rides.</p>
+
+      <h2>Why it is used</h2>
+      <p>The account, clubs, routes, and your position during a ride are used because they are necessary for the service you ask for. Location, photo, and notification permissions are granted or withdrawn by the phone. An SOS notice to the people on that ride is sent because the rider asked for it, so the group can help. We do not make automated decisions that produce legal effects about you.</p>
+
+      <h2>Your rights</h2>
+      <p>You can request access, correction, deletion, restriction, objection, and portability by writing to <a href="mailto:rmandrion@gmail.com">rmandrion@gmail.com</a>. Deleting the account in the app is the direct way to erase it. You can also lodge a complaint with the Spanish Data Protection Agency (<a href="https://www.aepd.es">aepd.es</a>) if you believe the processing does not comply with the law.</p>
+      <p>LinkaRide is not directed at anyone under 14, and someone under that age should not create an account.</p>
+
+      <h2>Changes</h2>
+      <p>If the processing changes, this page and the date above are updated. A change that matters to an existing account will be flagged in the app or sent to the account email.</p>
+    </section>
   </main>
+
+  <footer>
+    <p><a href="./">LinkaRide</a></p>
+  </footer>
 </body>
 </html>
